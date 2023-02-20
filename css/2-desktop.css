@@ -1,0 +1,81 @@
+@media screen and (min-width: 1512px){
+    nav{
+        width: 1512px;
+        display: flex;
+    }
+    .main-content {
+      
+      flex-direction: row;
+      gap: 10px;
+      
+    }
+    .app-logos{
+      flex-wrap: nowrap;
+      padding-top: 341px;
+    }
+    .main-hours {
+      padding-top: 199px;
+      
+    }
+   .main-title{
+    max-width:500px;
+  
+
+    
+   }
+   .main-matter{
+    width:500px;
+    padding-top: 19px;
+   }
+   .logos{
+       gap:2px;
+       flex-wrap: nowrap;
+       
+   }
+   .big-cube img{
+     max-width: 150px;
+     
+   }
+   .big-cube{
+    padding-left: 100px;
+   }
+   
+   .input1{
+    padding-left: 2px;
+    padding-top: 230px;
+   }
+   .main-card{
+     padding-left: 120px;
+     gap: 50px;
+   }
+   .first-sub-card{
+     flex-direction: row;
+     max-width: 586px;
+     padding: 20px;
+     border-radius: 25px;
+   }
+   .features{
+    padding-bottom: 10px;
+   }
+   .main-card{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.second-sub-card{
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 586px;
+     
+     border-radius: 25px;
+}
+/* 52 cards section starts */
+.main-sub-cards{
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   padding-right: 300px;
+   padding-left: 120px;
+   padding-top: 40px;
+   gap: 40px;
+}
+
+   }

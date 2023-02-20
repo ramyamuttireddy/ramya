@@ -1,0 +1,27 @@
+@media screen and (min-width: 1024px){
+  
+ 
+  .main-content {
+    flex-direction: row;
+    gap: 10px;
+    
+  }
+  .app-logos{
+    flex-wrap: nowrap;
+    padding-top: 341px;
+  }
+  .main-hours {
+    padding-top: 199px;
+    
+  }
+  .logos{
+    gap:2px;
+    flex-wrap: nowrap;
+    
+}
+
+ }
+
+  
+
+       

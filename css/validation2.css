@@ -1,0 +1,378 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+}
+.c-main-section  {
+    max-width: 1980px;
+}
+.main-wrapper{
+    background: linear-gradient(189.16deg, #390FC7 13.57%, #28234D 98.38%);
+    height: 600px;
+    
+    
+}
+/* it is a header section */
+nav{
+    display: flex;
+    justify-content: space-around;
+     width: 600px;
+   display: none;
+    
+}
+
+.logo {
+    padding-top: 60px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+  gap:69px;
+    
+}
+nav li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    
+    
+}
+nav a {
+    color: aliceblue;
+}
+li a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.navimage {
+    width: 24px;
+}
+.dots{
+  font-size: 14px;
+  color: white;
+}
+/* header section ends*/
+.main-content {
+    max-width: 1512px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    
+}
+.logos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app-logos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    
+    padding-left: 20px;
+    
+}
+
+
+#text1 {
+    max-width: 204px;
+    height: 44px;
+    border-radius: 30px;
+    background-color: rgb(197, 191, 191);
+}
+.main-hours{
+    padding-left: 50px;
+    padding-top: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main-title{
+    padding-left: 50px;
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: 600;
+    
+}
+.main-matter {
+    padding-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 19px;
+    line-height: 22px;
+}
+/* cobes section*/
+.input1 {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.big-cube img {
+    max-width: 50px;
+    
+}
+.big-cube{
+    padding-left: 130px;
+    
+}
+.input-s {
+    padding-left: 40px;
+}
+.cards-wrapeer{
+    background: linear-gradient(180deg, rgba(242, 246, 255, 0.5) 0%, #F2F6FF 40%);
+    padding-top: 40px;
+}
+.main-card{
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 70px;
+    
+    gap: 30px;
+}
+.first-sub-card{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.first-sub-right{
+    display: flex;
+    flex-direction: column;
+     max-width: 300px;
+     
+
+     
+     
+}
+.right-sub{
+    display: flex;
+    flex-direction: column;
+}
+.sub-1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+  padding-top: 20px;
+}
+.matter{
+    padding-left: 20px;
+    
+}
+.first-sub-left{
+    
+    max-width: 300px;
+   
+    background: linear-gradient(209.21deg, #D74165 13.57%, #D75141 98.38%);
+border-radius: 20px;
+}
+.features{
+   font-size: 13px;
+   font-weight: 600;
+   
+}
+div.number{
+    height: 24px;
+width: 38px;
+left: 10px;
+top: 10px;
+text-align: center;
+background: rgba(68, 66, 178, 0.1);
+border-radius: 50%;
+font-size: 20px;
+
+}
+.heading{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    
+}
+.sub-content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-top: 5px;
+}
+.hours{
+    width:48px;
+    height:20px;
+    background: rgba(68, 66, 178, 0.1);
+border-radius: 5px;
+
+}
+.card-image{
+    padding-top: 30px;
+    text-align: center;
+}
+.image-card-matter{
+
+   font-size: 24px;
+   font-weight: 700;
+   line-height: 34px;
+    color:white;
+   text-align: center;
+   padding-top: 10px;
+   
+
+}
+.image-card-hours {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white; 
+    padding-top: 10px;   
+}
+.star{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.second-sub-card{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 20px;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.6);
+box-shadow: inset 0px 0px 0px 0.5px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    padding-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.second-sub-left{
+    width: 250px;
+    background: linear-gradient(209.21deg, #2000B1 13.57%, #C34FFA 98.38%);
+border-radius: 20px;
+}
+.card2-image{
+   padding-left: 20px;
+   padding-top: 30px;
+   padding-right: 20px;
+}
+
+/* 52 cards section starts */
+.main-sub-cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:20px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.card1{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #3296FF 13.57%, #4417DB 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+
+.sub-card-heading {
+    
+font-size: 24px;
+font-weight: 700;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+padding-top: 20px;
+
+ }
+ .sub-card-hours{
+    font-family: Roboto;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+padding-top: 20px;
+ }
+ .sub-star{
+    text-align: center;
+    padding-top: 20px;
+ }
+ .card2 {
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #1D2026 13.57%, #2F2354 98.38%);
+border-radius: 20px;
+padding: 20px;
+ }
+ .card3{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #D74165 13.57%, #D75141 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card4{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #0F1439 13.57%, #005B9D 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card5{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #00AFD6 13.57%, #37017B 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card6{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #08568E 13.57%, #001855 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card7{
+    max-width: 263px;
+    background:  linear-gradient(209.21deg, #FDAD00 13.57%, #E96D2C 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card8{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #005B9D 13.57%, #0F1439 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card9{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #1D91FC 13.57%, #5A36C0 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card10{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #FF7262 13.57%, #992834 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card11{
+    max-width: 263px;
+    background: linear-gradient(209.21deg, #880094 13.57%, #514DFF 98.38%);
+border-radius: 20px;
+padding: 20px;
+}
+.card12{
+    max-width: 263px;
+    background:linear-gradient(209.21deg, #65BB76 13.57%, #466FAB 98.38%); 
+border-radius: 20px;
+padding: 20px;
+}
+ 
